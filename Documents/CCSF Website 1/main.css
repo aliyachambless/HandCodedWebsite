@@ -66,3 +66,15 @@ a:active {
     color: white;
     padding-right: 30px;
 }
+#construction {
+    width: 700px;
+}
+#picture {
+    float: left;
+}
+#description {
+    padding: 25px;
+    float: right;
+    text-align: center;
+    width: 300px;
+}
