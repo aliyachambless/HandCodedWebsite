@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+    font-family: 'Raleway', 'Ubuntu', Helvetica, Arial, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#header {
+    text-align: center;
+    width: 1000px;
+    padding: none;
+}
+#container {
+    background-color: white;
+    color: black;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+#content {
+    padding: 20px;
+}
+#nav {
+    width: 150px;
+    float: left;
+    padding: none;
+}
+#main {
+    width: 750px;
+    float: right;
+    padding: none;
+}
+#footer {
+    clear: both;
+    padding: 30px;
+    background-color: #578fca;
+    text-align: right;
+}
+#banner {
+    width: 1000px;
+}
+.selected {
+    font-weight: bold;
+    color: dodgerblue !important;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: skyblue;
+}
+a:active {
+    color: dodgerblue;
+}
+#nav ul {
+    list-style-type: none;
+    color: black;
+}
+#nav img{
+    display: block;
+    margin: 0 auto;
+}
+#footer #link {
+    color: white;
+    padding-right: 30px;
+}

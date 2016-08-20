@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Aliya's Website</title>
+        <meta name="keywords" content="Aliya Chambless, web design, html, CNIT 132"> 
+        <meta name="description" content="First webpage designed by Aliya Chambless for CNIT 132"> 
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway|Ubuntu" rel="stylesheet">
+        <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <header>
+                    <img id="banner" src = "webBanner.jpg"/>
+                </header>
+            </div>
+            <div id="content">
+                <div id="main">
+                    <p>Paragraph one 5. ADDRESS: At the bottom of the page, include a line stating when the page was last updated and a line with your email address as a mailto link. For date last updated it is better to use a script, rather than text. That way the date automatically changes every time one makes changes to the page and uploads the page to the server. You can use the following:</p>
+                    <p>Paragraph two 5. ADDRESS: At the bottom of the page, include a line stating when the page was last updated and a line with your email address as a mailto link. For date last updated it is better to use a script, rather than text. That way the date automatically changes every time one makes changes to the page and uploads the page to the server. You can use the following:</p>
+                </div>
+                <div id="nav">
+                    <a href="http://www.aliyachambless.com/">
+                        <img id="me" src="websiteImage.png" title="My Website"/>
+                    </a>
+                    <ul>
+                        <li><a href="index.html" class="selected">Home</a></li>
+                        <li><a href="">Homework 2</a></li>
+                        <li><a href="http://aliyachambless.com">My Website</a></li>
+                        <li><a href="">Resume</a></li>
+                        <li><a href="art.html">Self Portrait</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="footer">
+                <a id="link" href="mailto:achamble@mail.ccsf.edu">achamble@mail.ccsf.edu</a>
+                <script type="text/javascript">
+                    var dateModified = document.lastModified;
+                    mydate = dateModified.slice(0,16);
+                    document.write("Last updated: " + mydate);
+                </script>
+            </div>
+        </div>
+    </body>
+</html>
